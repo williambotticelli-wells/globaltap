@@ -1,0 +1,82 @@
+{
+  "_doc": [
+    "Pipeline config used for the 240-excerpt validation experiment",
+    "(paper §3.1-§3.3 and §3.6).",
+    "All paths are RELATIVE to data_root. Set data_root to the location of",
+    "your local copy of the data tree (audio + tap CSVs + annotator beats).",
+    "The alignment.* and optimizer.* blocks record the main settings used in",
+    "the paper. Stage 4 reads its window and KDE settings from this file.",
+    "Other optimizer values come from matching Python constants and defaults",
+    "listed in",
+    "supplementary_analyses/METHOD_PARAMETERS.md."
+  ],
+
+  "pipeline_version": "1.0.0-canonical",
+  "dataset": "canonical240",
+
+  "data_root": "${PROJECT_ROOT}",
+  "audio_dir": "audio/canonical240_30s",
+  "outputs_root": "outputs/canonical240",
+  "gt_source_map": "config/gt_source_map_canonical240.json",
+  "stimuli_manifest": "data/sampled_stimuli_canonical240.json",
+
+  "tap_csv_sources": [
+    "data/taps/panel-A/TapTrialMusic.csv",
+    "data/taps/panel-B/TapTrialMusic.csv",
+    "data/taps/panel-C/TapTrialMusic.csv",
+    "data/taps/panel-D/TapTrialMusic.csv",
+    "data/taps/panel-E/TapTrialMusic.csv",
+    "data/taps/panel-F/TapTrialMusic.csv",
+    "data/taps/panel-G/TapTrialMusic.csv",
+    "data/taps/panel-H/TapTrialMusic.csv",
+    "data/taps/panel-I/TapTrialMusic.csv",
+    "data/taps/panel-J/TapTrialMusic.csv",
+    "data/taps/panel-K/TapTrialMusic.csv"
+  ],
+
+  "stim_offset_s": 2.0,
+  "clip_duration_s": 30.0,
+  "optimizer_window": { "w0": 0.0, "w1": 30.0 },
+  "listening_window":  { "t0": 10.0, "t1": 25.0 },
+
+  "alignment": {
+    "kde_bandwidth_ms": 80.0,
+    "kde_dt_s": 0.005,
+    "peak_prominence": 0.1,
+    "peak_distance_s": 0.15,
+    "peak_width_s": 0.0,
+    "tempo_gate": false,
+    "tempo_gate_rel_tol": 0.3,
+    "mad_threshold": 3.5,
+    "_comment": "KDE and cleaning settings selected from 24 combinations tested across 240 excerpts (composite = 0.30*AMLt + 0.25*recall + 0.15*F + 0.15*split_half + 0.10*(1-oct_err) + 0.05*(1-ibi_cv))."
+  },
+
+  "optimizer": {
+    "kde_bandwidth_ms": 80.0,
+    "kde_dt_s": 0.005,
+    "ioi_min_s": 0.28,
+    "ioi_max_s": 1.25,
+    "lambdas_default": [2.0, 0.3, 0.3],
+    "bimodal_threshold": 0.1,
+    "octave_ratio_threshold": 1.4,
+    "high_cv_threshold": 0.06,
+    "_comment": "Two-term grid score S = D_bar + 0.5*C with period-proportional matching tolerance 0.12*T + 20 ms (see optimization/run_pipeline.py). Constants were selected during pipeline development using validation-corpus diagnostics and the sensitivity analyses in supplementary_analyses/METHOD_PARAMETERS.md. They were then held fixed for every reported analysis and were not tuned per excerpt or against listener-rating outcomes."
+  },
+
+  "madmom": { "fps": 100, "min_bpm": 55, "max_bpm": 215 },
+
+  "click_dsp": {
+    "sample_rate": 44100,
+    "tone_hz": 1100.0,
+    "click_ms": 12.0,
+    "click_amplitude": 0.9,
+    "music_ratio": 0.35,
+    "output_channels": 1,
+    "_comment": "1100 Hz 12 ms Hanning click, 0.9 amplitude, 35/65 music/click mix, 44.1 kHz mono. Identical DSP across all listening conditions."
+  },
+
+  "conditions": [
+    { "name": "gt",       "source": "annotator" },
+    { "name": "crowd_gs", "source": "pipeline"  }
+  ]
+}

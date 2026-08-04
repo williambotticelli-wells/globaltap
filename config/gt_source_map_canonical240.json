@@ -1,0 +1,1929 @@
+{
+  "0001_12step": {
+    "clip_offset_s": 0.347,
+    "corpus": "harmonix",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/harmonix/annotations/beats/0001_12step.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "0003_6foot7foot": {
+    "clip_offset_s": 0.206,
+    "corpus": "harmonix",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/harmonix/annotations/beats/0003_6foot7foot.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "0004_abc": {
+    "clip_offset_s": 5.503,
+    "corpus": "harmonix",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/harmonix/annotations/beats/0004_abc.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "0005_again": {
+    "clip_offset_s": 0.225,
+    "corpus": "harmonix",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/harmonix/annotations/beats/0005_again.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "001_youtube_fV4DiAyExN0": {
+    "clip_offset_s": 15.563,
+    "corpus": "tapcorrect",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/tapcorrect/annotations/beats/001_youtube_fV4DiAyExN0.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "002_youtube_CvMfvuJsYmE": {
+    "clip_offset_s": 5.013,
+    "corpus": "tapcorrect",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/tapcorrect/annotations/beats/002_youtube_CvMfvuJsYmE.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "003_youtube_tXjqKzX28LI": {
+    "clip_offset_s": 4.166,
+    "corpus": "tapcorrect",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/tapcorrect/annotations/beats/003_youtube_tXjqKzX28LI.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "004_youtube_IwOfCgkyEj0": {
+    "clip_offset_s": 5.127,
+    "corpus": "tapcorrect",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/tapcorrect/annotations/beats/004_youtube_IwOfCgkyEj0.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "0054_conceited": {
+    "clip_offset_s": 0.405,
+    "corpus": "harmonix",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/harmonix/annotations/beats/0054_conceited.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "005_youtube_RB-RcX5DS5A": {
+    "clip_offset_s": 3.794,
+    "corpus": "tapcorrect",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/tapcorrect/annotations/beats/005_youtube_RB-RcX5DS5A.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "00_Funk3-98-A_comp_mix": {
+    "clip_offset_s": 0.0,
+    "corpus": "guitarset",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/guitarset/annotations/beats/00_Funk3-98-A_comp_mix.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "00_Rock2-85-F_comp_mix": {
+    "clip_offset_s": 0.0,
+    "corpus": "guitarset",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/guitarset/annotations/beats/00_Rock2-85-F_comp_mix.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "00_SS1-68-E_comp_mix": {
+    "clip_offset_s": 0.0,
+    "corpus": "guitarset",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/guitarset/annotations/beats/00_SS1-68-E_comp_mix.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "00_SS2-88-F_comp_mix": {
+    "clip_offset_s": 0.0,
+    "corpus": "guitarset",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/guitarset/annotations/beats/00_SS2-88-F_comp_mix.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "0191_newslang": {
+    "clip_offset_s": 5.868,
+    "corpus": "harmonix",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/harmonix/annotations/beats/0191_newslang.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "01_Funk2-108-Eb_comp_mix": {
+    "clip_offset_s": 0.0,
+    "corpus": "guitarset",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/guitarset/annotations/beats/01_Funk2-108-Eb_comp_mix.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "025_youtube_8jsFGdeWNPo": {
+    "clip_offset_s": 28.282,
+    "corpus": "tapcorrect",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/tapcorrect/annotations/beats/025_youtube_8jsFGdeWNPo.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "02_BN3-119-G_comp_mix": {
+    "clip_offset_s": 0.0,
+    "corpus": "guitarset",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/guitarset/annotations/beats/02_BN3-119-G_comp_mix.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "02_Jazz2-110-Bb_comp_mix": {
+    "clip_offset_s": 0.0,
+    "corpus": "guitarset",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/guitarset/annotations/beats/02_Jazz2-110-Bb_comp_mix.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "03_SS3-84-Bb_comp_mix": {
+    "clip_offset_s": 0.0,
+    "corpus": "guitarset",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/guitarset/annotations/beats/03_SS3-84-Bb_comp_mix.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "054_youtube_UgL4N4Hf1dk": {
+    "clip_offset_s": 5.153,
+    "corpus": "tapcorrect",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/tapcorrect/annotations/beats/054_youtube_UgL4N4Hf1dk.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "071_youtube_WBQ03PXMpqY": {
+    "clip_offset_s": 5.268,
+    "corpus": "tapcorrect",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/tapcorrect/annotations/beats/071_youtube_WBQ03PXMpqY.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "0773_kissmethruthephone": {
+    "clip_offset_s": 0.058,
+    "corpus": "harmonix",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/harmonix/annotations/beats/0773_kissmethruthephone.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "0948_thislove": {
+    "clip_offset_s": 0.058,
+    "corpus": "harmonix",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/harmonix/annotations/beats/0948_thislove.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "1-0fGHZf0K1p8": {
+    "clip_offset_s": 0.0,
+    "corpus": "globalmood",
+    "gt": null,
+    "path": null,
+    "row_filter": null,
+    "source_label": "no_gt_cross_cultural"
+  },
+  "10-TunFcFByq28": {
+    "clip_offset_s": 0.0,
+    "corpus": "globalmood",
+    "gt": null,
+    "path": null,
+    "row_filter": null,
+    "source_label": "no_gt_cross_cultural"
+  },
+  "11-JWyovRzld1I": {
+    "clip_offset_s": 0.0,
+    "corpus": "globalmood",
+    "gt": null,
+    "path": null,
+    "row_filter": null,
+    "source_label": "no_gt_cross_cultural"
+  },
+  "12-4Snl5lw-ku4": {
+    "clip_offset_s": 0.0,
+    "corpus": "globalmood",
+    "gt": null,
+    "path": null,
+    "row_filter": null,
+    "source_label": "no_gt_cross_cultural"
+  },
+  "13-1K4KwuV2l4s": {
+    "clip_offset_s": 0.0,
+    "corpus": "globalmood",
+    "gt": null,
+    "path": null,
+    "row_filter": null,
+    "source_label": "no_gt_cross_cultural"
+  },
+  "14-4ZMq4-T0DaQ": {
+    "clip_offset_s": 0.0,
+    "corpus": "globalmood",
+    "gt": null,
+    "path": null,
+    "row_filter": null,
+    "source_label": "no_gt_cross_cultural"
+  },
+  "15-cg49uu60tXk": {
+    "clip_offset_s": 0.0,
+    "corpus": "globalmood",
+    "gt": null,
+    "path": null,
+    "row_filter": null,
+    "source_label": "no_gt_cross_cultural"
+  },
+  "16-cXuGD48qs3Y": {
+    "clip_offset_s": 0.0,
+    "corpus": "globalmood",
+    "gt": null,
+    "path": null,
+    "row_filter": null,
+    "source_label": "no_gt_cross_cultural"
+  },
+  "17-ehHKH5PbGYc": {
+    "clip_offset_s": 0.0,
+    "corpus": "globalmood",
+    "gt": null,
+    "path": null,
+    "row_filter": null,
+    "source_label": "no_gt_cross_cultural"
+  },
+  "18-FxQUodHlP5M": {
+    "clip_offset_s": 0.0,
+    "corpus": "globalmood",
+    "gt": null,
+    "path": null,
+    "row_filter": null,
+    "source_label": "no_gt_cross_cultural"
+  },
+  "19-Ii8t-XIw6aM": {
+    "clip_offset_s": 0.0,
+    "corpus": "globalmood",
+    "gt": null,
+    "path": null,
+    "row_filter": null,
+    "source_label": "no_gt_cross_cultural"
+  },
+  "2-0R8IbpKXavM": {
+    "clip_offset_s": 0.0,
+    "corpus": "globalmood",
+    "gt": null,
+    "path": null,
+    "row_filter": null,
+    "source_label": "no_gt_cross_cultural"
+  },
+  "20-ipDNOrqLIHU": {
+    "clip_offset_s": 0.0,
+    "corpus": "globalmood",
+    "gt": null,
+    "path": null,
+    "row_filter": null,
+    "source_label": "no_gt_cross_cultural"
+  },
+  "21-IQCCdf_sVO0": {
+    "clip_offset_s": 0.0,
+    "corpus": "globalmood",
+    "gt": null,
+    "path": null,
+    "row_filter": null,
+    "source_label": "no_gt_cross_cultural"
+  },
+  "22-JfiORjOfXnc": {
+    "clip_offset_s": 0.0,
+    "corpus": "globalmood",
+    "gt": null,
+    "path": null,
+    "row_filter": null,
+    "source_label": "no_gt_cross_cultural"
+  },
+  "23-JQnN90qqSZg": {
+    "clip_offset_s": 0.0,
+    "corpus": "globalmood",
+    "gt": null,
+    "path": null,
+    "row_filter": null,
+    "source_label": "no_gt_cross_cultural"
+  },
+  "24-M9moY0hEJRE": {
+    "clip_offset_s": 0.0,
+    "corpus": "globalmood",
+    "gt": null,
+    "path": null,
+    "row_filter": null,
+    "source_label": "no_gt_cross_cultural"
+  },
+  "25-niyrxbHusd0": {
+    "clip_offset_s": 0.0,
+    "corpus": "globalmood",
+    "gt": null,
+    "path": null,
+    "row_filter": null,
+    "source_label": "no_gt_cross_cultural"
+  },
+  "26-NXek-3pRZM8": {
+    "clip_offset_s": 0.0,
+    "corpus": "globalmood",
+    "gt": null,
+    "path": null,
+    "row_filter": null,
+    "source_label": "no_gt_cross_cultural"
+  },
+  "27-oIEjo5eh5FY": {
+    "clip_offset_s": 0.0,
+    "corpus": "globalmood",
+    "gt": null,
+    "path": null,
+    "row_filter": null,
+    "source_label": "no_gt_cross_cultural"
+  },
+  "28-QEd7PTIDGT8": {
+    "clip_offset_s": 0.0,
+    "corpus": "globalmood",
+    "gt": null,
+    "path": null,
+    "row_filter": null,
+    "source_label": "no_gt_cross_cultural"
+  },
+  "29-R7WW7vGNFp8": {
+    "clip_offset_s": 0.0,
+    "corpus": "globalmood",
+    "gt": null,
+    "path": null,
+    "row_filter": null,
+    "source_label": "no_gt_cross_cultural"
+  },
+  "3-bDNEQZoEg60": {
+    "clip_offset_s": 0.0,
+    "corpus": "globalmood",
+    "gt": null,
+    "path": null,
+    "row_filter": null,
+    "source_label": "no_gt_cross_cultural"
+  },
+  "30-TEg8G9YoN_4": {
+    "clip_offset_s": 0.0,
+    "corpus": "globalmood",
+    "gt": null,
+    "path": null,
+    "row_filter": null,
+    "source_label": "no_gt_cross_cultural"
+  },
+  "31-UsmHjyrxAQE": {
+    "clip_offset_s": 0.0,
+    "corpus": "globalmood",
+    "gt": null,
+    "path": null,
+    "row_filter": null,
+    "source_label": "no_gt_cross_cultural"
+  },
+  "32-vdTlMwgMOpo": {
+    "clip_offset_s": 0.0,
+    "corpus": "globalmood",
+    "gt": null,
+    "path": null,
+    "row_filter": null,
+    "source_label": "no_gt_cross_cultural"
+  },
+  "33-W5nY3LsgKaM": {
+    "clip_offset_s": 0.0,
+    "corpus": "globalmood",
+    "gt": null,
+    "path": null,
+    "row_filter": null,
+    "source_label": "no_gt_cross_cultural"
+  },
+  "34-wCBu0PkoNPs": {
+    "clip_offset_s": 0.0,
+    "corpus": "globalmood",
+    "gt": null,
+    "path": null,
+    "row_filter": null,
+    "source_label": "no_gt_cross_cultural"
+  },
+  "35-wDjlvzXYlvo": {
+    "clip_offset_s": 0.0,
+    "corpus": "globalmood",
+    "gt": null,
+    "path": null,
+    "row_filter": null,
+    "source_label": "no_gt_cross_cultural"
+  },
+  "36-X6bd8vGQTpE": {
+    "clip_offset_s": 0.0,
+    "corpus": "globalmood",
+    "gt": null,
+    "path": null,
+    "row_filter": null,
+    "source_label": "no_gt_cross_cultural"
+  },
+  "37-xkruFx9q9cs": {
+    "clip_offset_s": 0.0,
+    "corpus": "globalmood",
+    "gt": null,
+    "path": null,
+    "row_filter": null,
+    "source_label": "no_gt_cross_cultural"
+  },
+  "38-xPZn7LXUcKE": {
+    "clip_offset_s": 0.0,
+    "corpus": "globalmood",
+    "gt": null,
+    "path": null,
+    "row_filter": null,
+    "source_label": "no_gt_cross_cultural"
+  },
+  "39-yBFsM49an2I": {
+    "clip_offset_s": 0.0,
+    "corpus": "globalmood",
+    "gt": null,
+    "path": null,
+    "row_filter": null,
+    "source_label": "no_gt_cross_cultural"
+  },
+  "4-E_O9dOl1dlo": {
+    "clip_offset_s": 0.0,
+    "corpus": "globalmood",
+    "gt": null,
+    "path": null,
+    "row_filter": null,
+    "source_label": "no_gt_cross_cultural"
+  },
+  "40-ZyXEyRT-1S0": {
+    "clip_offset_s": 0.0,
+    "corpus": "globalmood",
+    "gt": null,
+    "path": null,
+    "row_filter": null,
+    "source_label": "no_gt_cross_cultural"
+  },
+  "5-HufeFlfAhT8": {
+    "clip_offset_s": 0.0,
+    "corpus": "globalmood",
+    "gt": null,
+    "path": null,
+    "row_filter": null,
+    "source_label": "no_gt_cross_cultural"
+  },
+  "6-hWwzVQgV8u4": {
+    "clip_offset_s": 0.0,
+    "corpus": "globalmood",
+    "gt": null,
+    "path": null,
+    "row_filter": null,
+    "source_label": "no_gt_cross_cultural"
+  },
+  "7-hZmtsGVZBpA": {
+    "clip_offset_s": 0.0,
+    "corpus": "globalmood",
+    "gt": null,
+    "path": null,
+    "row_filter": null,
+    "source_label": "no_gt_cross_cultural"
+  },
+  "8-j9qu4Y4AwUM": {
+    "clip_offset_s": 0.0,
+    "corpus": "globalmood",
+    "gt": null,
+    "path": null,
+    "row_filter": null,
+    "source_label": "no_gt_cross_cultural"
+  },
+  "9-L4mxIf1QQRM": {
+    "clip_offset_s": 0.0,
+    "corpus": "globalmood",
+    "gt": null,
+    "path": null,
+    "row_filter": null,
+    "source_label": "no_gt_cross_cultural"
+  },
+  "Albums-AnaBelen_Veneo-13": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom/Albums-AnaBelen_Veneo-13.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Albums-Ballroom_Classics4-01": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom/Albums-Ballroom_Classics4-01.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Albums-Cafe_Paradiso-09": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom/Albums-Cafe_Paradiso-09.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Albums-Chrisanne2-12": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom_heldout",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom_heldout/Albums-Chrisanne2-12.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Albums-Chrisanne3-09": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom_heldout",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom_heldout/Albums-Chrisanne3-09.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Albums-GloriaEstefan_MiTierra-04": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom/Albums-GloriaEstefan_MiTierra-04.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Albums-GloriaEstefan_MiTierra-06": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom/Albums-GloriaEstefan_MiTierra-06.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Albums-GloriaEstefan_MiTierra-11": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom_heldout",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom_heldout/Albums-GloriaEstefan_MiTierra-11.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Albums-Latin_Jam-04": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom_heldout",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom_heldout/Albums-Latin_Jam-04.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Albums-Latin_Jam4-08": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom_heldout",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom_heldout/Albums-Latin_Jam4-08.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Albums-Latino_Latino-10": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom/Albums-Latino_Latino-10.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Albums-Macumba-07": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom_heldout",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom_heldout/Albums-Macumba-07.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Albums-Step_By_Step-03": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom_heldout",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom_heldout/Albums-Step_By_Step-03.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Albums-StrictlyDancing_Tango-09": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom_heldout",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom_heldout/Albums-StrictlyDancing_Tango-09.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Bach_Fugue_bwv_846_Shi05M": {
+    "clip_offset_s": 6.211,
+    "corpus": "asap",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/asap/annotations/beats/Bach_Fugue_bwv_846_Shi05M.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "Beethoven_Piano_Sonatas_16-1_Khmara05M": {
+    "clip_offset_s": 5.162,
+    "corpus": "asap",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/asap/annotations/beats/Beethoven_Piano_Sonatas_16-1_Khmara05M.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "Chopin_Etudes_op_10_1_ChenW03M": {
+    "clip_offset_s": 5.176,
+    "corpus": "asap",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/asap/annotations/beats/Chopin_Etudes_op_10_1_ChenW03M.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "Debussy_Images_Book_1_1_Reflets_dans_lEau_ParkJH13M": {
+    "clip_offset_s": 5.061,
+    "corpus": "asap",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/asap/annotations/beats/Debussy_Images_Book_1_1_Reflets_dans_lEau_ParkJH13M.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "Haydn_Keyboard_Sonatas_50-1_no_repeat_GalantM02M": {
+    "clip_offset_s": 5.036,
+    "corpus": "asap",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/asap/annotations/beats/Haydn_Keyboard_Sonatas_50-1_no_repeat_GalantM02M.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "Liszt_Annees_de_pelerinage_2_1_Gondoliera_LeungM08M": {
+    "clip_offset_s": 5.225,
+    "corpus": "asap",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/asap/annotations/beats/Liszt_Annees_de_pelerinage_2_1_Gondoliera_LeungM08M.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "Media-100616": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom_heldout",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom_heldout/Media-100616.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-103401": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom/Media-103401.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-103410": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom_heldout",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom_heldout/Media-103410.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-103412": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom_heldout",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom_heldout/Media-103412.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-103413": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom/Media-103413.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-103501": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom/Media-103501.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-103507": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom/Media-103507.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-103511": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom/Media-103511.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-103512": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom/Media-103512.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-103515": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom/Media-103515.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-103516": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom/Media-103516.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-103517": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom/Media-103517.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-103601": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom/Media-103601.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-103605": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom/Media-103605.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-103606": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom/Media-103606.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-103608": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom/Media-103608.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-103611": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom/Media-103611.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-103704": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom_heldout",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom_heldout/Media-103704.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-103705": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom_heldout",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom_heldout/Media-103705.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-103707": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom/Media-103707.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-103709": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom/Media-103709.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-103711": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom_heldout",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom_heldout/Media-103711.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-103712": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom_heldout",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom_heldout/Media-103712.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-103714": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom_heldout",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom_heldout/Media-103714.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-103807": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom_heldout",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom_heldout/Media-103807.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-103812": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom_heldout",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom_heldout/Media-103812.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-103917": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom_heldout",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom_heldout/Media-103917.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-104101": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom_heldout",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom_heldout/Media-104101.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-104203": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom_heldout",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom_heldout/Media-104203.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-104204": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom_heldout",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom_heldout/Media-104204.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-104406": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom_heldout",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom_heldout/Media-104406.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-104415": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom_heldout",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom_heldout/Media-104415.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-104501": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom/Media-104501.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-104502": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom/Media-104502.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-104506": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom/Media-104506.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-104507": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom/Media-104507.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-104508": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom/Media-104508.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-104514": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom/Media-104514.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-104516": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom/Media-104516.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-104601": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom/Media-104601.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-104605": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom/Media-104605.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-104606": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom/Media-104606.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-104607": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom/Media-104607.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-104615": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom/Media-104615.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-104706": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom/Media-104706.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-104711": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom/Media-104711.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-104716": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom/Media-104716.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-104804": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom_heldout",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom_heldout/Media-104804.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-104806": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom_heldout",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom_heldout/Media-104806.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-104906": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom_heldout",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom_heldout/Media-104906.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-105009": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom_heldout",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom_heldout/Media-105009.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-105108": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom_heldout",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom_heldout/Media-105108.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-105315": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom_heldout",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom_heldout/Media-105315.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-105407": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom_heldout",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom_heldout/Media-105407.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-105516": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom_heldout",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom_heldout/Media-105516.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-105611": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom/Media-105611.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-105612": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom/Media-105612.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-105704": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom_heldout",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom_heldout/Media-105704.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-105716": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom_heldout",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom_heldout/Media-105716.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-105807": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom_heldout",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom_heldout/Media-105807.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-105819": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom_heldout",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom_heldout/Media-105819.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-105914": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom_heldout",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom_heldout/Media-105914.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-106005": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom_heldout",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom_heldout/Media-106005.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-106009": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom/Media-106009.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-106012": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom_heldout",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom_heldout/Media-106012.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Media-106114": {
+    "clip_offset_s": 0.0,
+    "corpus": "ballroom_heldout",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/ballroom_heldout/Media-106114.beats",
+    "row_filter": null,
+    "source_label": "ballroom_expert"
+  },
+  "Mozart_Piano_Sonatas_12-3_MunA05M": {
+    "clip_offset_s": 5.399,
+    "corpus": "asap",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/asap/annotations/beats/Mozart_Piano_Sonatas_12-3_MunA05M.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "Schubert_Piano_Sonatas_894-2_Yeletskiy08M": {
+    "clip_offset_s": 5.618,
+    "corpus": "asap",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/asap/annotations/beats/Schubert_Piano_Sonatas_894-2_Yeletskiy08M.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "aksak1": {
+    "clip_offset_s": -0.0,
+    "corpus": "turkish",
+    "gt": "annotator",
+    "note": "Turkish main usul tactus \u2014 subset of pulse grid at annotator-designated main pulse positions.",
+    "path": "${PROJECT_ROOT}/data/downbeat_examples/aksak1.txt",
+    "row_filter": "pos in {1,3,5,7}",
+    "source_label": "mirex_downbeat_examples"
+  },
+  "aksak2": {
+    "clip_offset_s": 0.0,
+    "corpus": "turkish",
+    "gt": "annotator",
+    "note": "Turkish main usul tactus \u2014 subset of pulse grid at annotator-designated main pulse positions.",
+    "path": "${PROJECT_ROOT}/data/downbeat_examples/aksak2.txt",
+    "row_filter": "pos in {1,3,5,7}",
+    "source_label": "mirex_downbeat_examples"
+  },
+  "beatles_01_Please_Please_Me_01_I_Saw_Her_Standing_There": {
+    "clip_offset_s": 4.04,
+    "corpus": "beatles",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/beatles/annotations/beats/beatles_01_Please_Please_Me_01_I_Saw_Her_Standing_There.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "beatles_01_Please_Please_Me_02_Misery": {
+    "clip_offset_s": 5.429,
+    "corpus": "beatles",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/beatles/annotations/beats/beatles_01_Please_Please_Me_02_Misery.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "beatles_01_Please_Please_Me_03_Anna_(Go_To_Him)": {
+    "clip_offset_s": 5.201,
+    "corpus": "beatles",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/beatles/annotations/beats/beatles_01_Please_Please_Me_03_Anna_(Go_To_Him).beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "beatles_01_Please_Please_Me_04_Chains": {
+    "clip_offset_s": 4.528,
+    "corpus": "beatles",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/beatles/annotations/beats/beatles_01_Please_Please_Me_04_Chains.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "beatles_04_Beatles_for_Sale_06_Mr_Moonlight": {
+    "clip_offset_s": 4.656,
+    "corpus": "beatles",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/beatles/annotations/beats/beatles_04_Beatles_for_Sale_06_Mr_Moonlight.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "beatles_05_Help_12_Ive_Just_Seen_a_Face": {
+    "clip_offset_s": 5.093,
+    "corpus": "beatles",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/beatles/annotations/beats/beatles_05_Help_12_Ive_Just_Seen_a_Face.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "beatles_07_Revolver_06_Yellow_Submarine": {
+    "clip_offset_s": 5.015,
+    "corpus": "beatles",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/beatles/annotations/beats/beatles_07_Revolver_06_Yellow_Submarine.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "beatles_07_Revolver_12_I_Want_To_Tell_You": {
+    "clip_offset_s": 4.923,
+    "corpus": "beatles",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/beatles/annotations/beats/beatles_07_Revolver_12_I_Want_To_Tell_You.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "carnatic1": {
+    "clip_offset_s": -0.0,
+    "corpus": "carnatic",
+    "gt": "annotator",
+    "path": "${PROJECT_ROOT}/data/downbeat_examples/carnatic1.txt",
+    "row_filter": null,
+    "source_label": "mirex_downbeat_examples"
+  },
+  "carnatic2": {
+    "clip_offset_s": -0.0,
+    "corpus": "carnatic",
+    "gt": "annotator",
+    "path": "${PROJECT_ROOT}/data/downbeat_examples/carnatic2.txt",
+    "row_filter": null,
+    "source_label": "mirex_downbeat_examples"
+  },
+  "carnatic3": {
+    "clip_offset_s": 0.0,
+    "corpus": "carnatic",
+    "gt": "annotator",
+    "path": "${PROJECT_ROOT}/data/downbeat_examples/carnatic3.txt",
+    "row_filter": null,
+    "source_label": "mirex_downbeat_examples"
+  },
+  "carnatic4": {
+    "clip_offset_s": 0.0,
+    "corpus": "carnatic",
+    "gt": "annotator",
+    "path": "${PROJECT_ROOT}/data/downbeat_examples/carnatic4.txt",
+    "row_filter": null,
+    "source_label": "mirex_downbeat_examples"
+  },
+  "cretan1": {
+    "clip_offset_s": 0.0,
+    "corpus": "cretan",
+    "gt": "annotator",
+    "path": "${PROJECT_ROOT}/data/downbeat_examples/cretan1.txt",
+    "row_filter": null,
+    "source_label": "mirex_downbeat_examples"
+  },
+  "cretan2": {
+    "clip_offset_s": 0.0,
+    "corpus": "cretan",
+    "gt": "annotator",
+    "path": "${PROJECT_ROOT}/data/downbeat_examples/cretan2.txt",
+    "row_filter": null,
+    "source_label": "mirex_downbeat_examples"
+  },
+  "cretan3": {
+    "clip_offset_s": 0.0,
+    "corpus": "cretan",
+    "gt": "annotator",
+    "path": "${PROJECT_ROOT}/data/downbeat_examples/cretan3.txt",
+    "row_filter": null,
+    "source_label": "mirex_downbeat_examples"
+  },
+  "csic.1995_ansina1_01": {
+    "clip_offset_s": 5.02,
+    "corpus": "candombe",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/candombe/annotations/beats/csic.1995_ansina1_01.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "csic.1995_ansina1_02": {
+    "clip_offset_s": 4.54,
+    "corpus": "candombe",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/candombe/annotations/beats/csic.1995_ansina1_02.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "csic.1995_ansina2_01": {
+    "clip_offset_s": 4.722,
+    "corpus": "candombe",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/candombe/annotations/beats/csic.1995_ansina2_01.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "csic.1995_cuareim_01": {
+    "clip_offset_s": 3.992,
+    "corpus": "candombe",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/candombe/annotations/beats/csic.1995_cuareim_01.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "csic.1995_cuareim_02": {
+    "clip_offset_s": 4.824,
+    "corpus": "candombe",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/candombe/annotations/beats/csic.1995_cuareim_02.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "curcuna1": {
+    "clip_offset_s": 0.0,
+    "corpus": "turkish",
+    "gt": "annotator",
+    "note": "Turkish main usul tactus \u2014 subset of pulse grid at annotator-designated main pulse positions.",
+    "path": "${PROJECT_ROOT}/data/downbeat_examples/curcuna1.txt",
+    "row_filter": "pos in {1,3,5,8}",
+    "source_label": "mirex_downbeat_examples"
+  },
+  "curcuna2": {
+    "clip_offset_s": 0.0,
+    "corpus": "turkish",
+    "gt": "annotator",
+    "note": "Turkish main usul tactus \u2014 subset of pulse grid at annotator-designated main pulse positions.",
+    "path": "${PROJECT_ROOT}/data/downbeat_examples/curcuna2.txt",
+    "row_filter": "pos in {1,3,5,8}",
+    "source_label": "mirex_downbeat_examples"
+  },
+  "drummer10_session1_9_jazz-swing_110_beat_4-4": {
+    "clip_offset_s": 0.0,
+    "corpus": "groove_midi",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/groove_midi/annotations/beats/drummer10_session1_9_jazz-swing_110_beat_4-4.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "drummer1_eval_session_5_funk-groove5_84_beat_4-4": {
+    "clip_offset_s": 0.0,
+    "corpus": "groove_midi",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/groove_midi/annotations/beats/drummer1_eval_session_5_funk-groove5_84_beat_4-4.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "drummer3_session1_11_rock_120_beat_4-4": {
+    "clip_offset_s": 0.0,
+    "corpus": "groove_midi",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/groove_midi/annotations/beats/drummer3_session1_11_rock_120_beat_4-4.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "drummer4_session1_1_rock_87_beat_4-4": {
+    "clip_offset_s": 0.0,
+    "corpus": "groove_midi",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/groove_midi/annotations/beats/drummer4_session1_1_rock_87_beat_4-4.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "drummer5_eval_session_5_funk-groove5_84_beat_4-4": {
+    "clip_offset_s": 0.0,
+    "corpus": "groove_midi",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/groove_midi/annotations/beats/drummer5_eval_session_5_funk-groove5_84_beat_4-4.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "drummer5_session2_18_latin-brazilian-samba_93_beat_4-4": {
+    "clip_offset_s": 0.0,
+    "corpus": "groove_midi",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/groove_midi/annotations/beats/drummer5_session2_18_latin-brazilian-samba_93_beat_4-4.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "drummer6_session1_1_rock_70_beat_6-8": {
+    "clip_offset_s": 0.0,
+    "corpus": "groove_midi",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/groove_midi/annotations/beats/drummer6_session1_1_rock_70_beat_6-8.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "drummer7_session3_159_soul_98_beat_4-4": {
+    "clip_offset_s": 0.0,
+    "corpus": "groove_midi",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/groove_midi/annotations/beats/drummer7_session3_159_soul_98_beat_4-4.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "duyek1": {
+    "clip_offset_s": 0.0,
+    "corpus": "turkish",
+    "gt": "annotator",
+    "note": "Turkish main usul tactus \u2014 subset of pulse grid at annotator-designated main pulse positions.",
+    "path": "${PROJECT_ROOT}/data/downbeat_examples/duyek1.txt",
+    "row_filter": "pos in {1,3,5,7}",
+    "source_label": "mirex_downbeat_examples"
+  },
+  "duyek2": {
+    "clip_offset_s": -0.0,
+    "corpus": "turkish",
+    "gt": "annotator",
+    "note": "Turkish main usul tactus \u2014 subset of pulse grid at annotator-designated main pulse positions.",
+    "path": "${PROJECT_ROOT}/data/downbeat_examples/duyek2.txt",
+    "row_filter": "pos in {1,3,5,7}",
+    "source_label": "mirex_downbeat_examples"
+  },
+  "gtzan_blues_00000": {
+    "clip_offset_s": 0.0,
+    "corpus": "gtzan",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/gtzan/annotations/beats/gtzan_blues_00000.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "gtzan_classical_00000": {
+    "clip_offset_s": 0.0,
+    "corpus": "gtzan",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/gtzan/annotations/beats/gtzan_classical_00000.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "gtzan_country_00000": {
+    "clip_offset_s": 0.113,
+    "corpus": "gtzan",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/gtzan/annotations/beats/gtzan_country_00000.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "gtzan_disco_00000": {
+    "clip_offset_s": 0.0,
+    "corpus": "gtzan",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/gtzan/annotations/beats/gtzan_disco_00000.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "gtzan_hiphop_00000": {
+    "clip_offset_s": 0.0,
+    "corpus": "gtzan",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/gtzan/annotations/beats/gtzan_hiphop_00000.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "gtzan_jazz_00000": {
+    "clip_offset_s": 0.091,
+    "corpus": "gtzan",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/gtzan/annotations/beats/gtzan_jazz_00000.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "gtzan_metal_00000": {
+    "clip_offset_s": 0.0,
+    "corpus": "gtzan",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/gtzan/annotations/beats/gtzan_metal_00000.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "gtzan_pop_00000": {
+    "clip_offset_s": 0.0,
+    "corpus": "gtzan",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/gtzan/annotations/beats/gtzan_pop_00000.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "hainsworth_001": {
+    "clip_offset_s": 4.65,
+    "corpus": "hainsworth",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/hainsworth/annotations/beats/hainsworth_001.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "hainsworth_002": {
+    "clip_offset_s": 5.064,
+    "corpus": "hainsworth",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/hainsworth/annotations/beats/hainsworth_002.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "hainsworth_003": {
+    "clip_offset_s": 5.476,
+    "corpus": "hainsworth",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/hainsworth/annotations/beats/hainsworth_003.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "hainsworth_006": {
+    "clip_offset_s": 6.206,
+    "corpus": "hainsworth",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/hainsworth/annotations/beats/hainsworth_006.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "hainsworth_019": {
+    "clip_offset_s": 1.06,
+    "corpus": "hainsworth",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/hainsworth/annotations/beats/hainsworth_019.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "hainsworth_095": {
+    "clip_offset_s": 3.78,
+    "corpus": "hainsworth",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/hainsworth/annotations/beats/hainsworth_095.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "hainsworth_112": {
+    "clip_offset_s": 5.36,
+    "corpus": "hainsworth",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/hainsworth/annotations/beats/hainsworth_112.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "hainsworth_173": {
+    "clip_offset_s": 3.71,
+    "corpus": "hainsworth",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/hainsworth/annotations/beats/hainsworth_173.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "proyecto.1992_gimenez_02": {
+    "clip_offset_s": 5.226,
+    "corpus": "candombe",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/candombe/annotations/beats/proyecto.1992_gimenez_02.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "proyecto.1992_gimenez_06": {
+    "clip_offset_s": 5.296,
+    "corpus": "candombe",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/candombe/annotations/beats/proyecto.1992_gimenez_06.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "proyecto.1992_lobo_01": {
+    "clip_offset_s": 5.468,
+    "corpus": "candombe",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/candombe/annotations/beats/proyecto.1992_lobo_01.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "proyecto.1992_lobo_06": {
+    "clip_offset_s": 4.101,
+    "corpus": "candombe",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/candombe/annotations/beats/proyecto.1992_lobo_06.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "proyecto.1992_magarinos_02": {
+    "clip_offset_s": 5.224,
+    "corpus": "candombe",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/candombe/annotations/beats/proyecto.1992_magarinos_02.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "proyecto.1992_pelado_01": {
+    "clip_offset_s": 4.459,
+    "corpus": "candombe",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/candombe/annotations/beats/proyecto.1992_pelado_01.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "rwc_classical_CD1_01": {
+    "clip_offset_s": 0.0,
+    "corpus": "rwc",
+    "gt": "annotator",
+    "note": "bm30_filt drops pos==0 rows. It matches the Beat This! annotations in the 30-second window (offset 5.87 s). The full-track Beat This! file has a known conversion issue described in its README.",
+    "path": "audio/benchmark_30s/rwc/rwc_classical_CD1_01.beats",
+    "row_filter": "pos>=1",
+    "source_label": "bm30_filt (== upstream in-window)"
+  },
+  "rwc_classical_CD1_02": {
+    "clip_offset_s": 4.73,
+    "corpus": "rwc",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/rwc/annotations/beats/rwc_classical_CD1_02.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "rwc_classical_CD1_03": {
+    "clip_offset_s": 5.18,
+    "corpus": "rwc",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/rwc/annotations/beats/rwc_classical_CD1_03.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "rwc_jazz_CD1_13": {
+    "clip_offset_s": 5.5,
+    "corpus": "rwc",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/rwc/annotations/beats/rwc_jazz_CD1_13.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "rwc_jazz_CD4_14": {
+    "clip_offset_s": 5.21,
+    "corpus": "rwc",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/rwc/annotations/beats/rwc_jazz_CD4_14.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "rwc_popular_CD1_01": {
+    "clip_offset_s": 0.06,
+    "corpus": "rwc",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/rwc/annotations/beats/rwc_popular_CD1_01.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "rwc_popular_CD2_05": {
+    "clip_offset_s": 0.035,
+    "corpus": "rwc",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/rwc/annotations/beats/rwc_popular_CD2_05.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "rwc_popular_CD3_03": {
+    "clip_offset_s": 0.136,
+    "corpus": "rwc",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/rwc/annotations/beats/rwc_popular_CD3_03.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "sofyan1": {
+    "clip_offset_s": 0.0,
+    "corpus": "turkish",
+    "gt": "annotator",
+    "path": "${PROJECT_ROOT}/data/downbeat_examples/sofyan1.txt",
+    "row_filter": null,
+    "source_label": "mirex_downbeat_examples"
+  },
+  "sofyan2": {
+    "clip_offset_s": 0.0,
+    "corpus": "turkish",
+    "gt": "annotator",
+    "path": "${PROJECT_ROOT}/data/downbeat_examples/sofyan2.txt",
+    "row_filter": null,
+    "source_label": "mirex_downbeat_examples"
+  },
+  "train1": {
+    "clip_offset_s": 0.0,
+    "corpus": "mirex",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/mirex/train1.beats",
+    "row_filter": null,
+    "source_label": "mirex_median_p_score"
+  },
+  "train10": {
+    "clip_offset_s": 0.0,
+    "corpus": "mirex",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/mirex/train10.beats",
+    "row_filter": null,
+    "source_label": "mirex_median_p_score"
+  },
+  "train11": {
+    "clip_offset_s": 0.0,
+    "corpus": "mirex",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/mirex/train11.beats",
+    "row_filter": null,
+    "source_label": "mirex_median_p_score"
+  },
+  "train12": {
+    "clip_offset_s": 0.0,
+    "corpus": "mirex",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/mirex/train12.beats",
+    "row_filter": null,
+    "source_label": "mirex_median_p_score"
+  },
+  "train13": {
+    "clip_offset_s": 0.0,
+    "corpus": "mirex",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/mirex/train13.beats",
+    "row_filter": null,
+    "source_label": "mirex_median_p_score"
+  },
+  "train14": {
+    "clip_offset_s": 0.0,
+    "corpus": "mirex",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/mirex/train14.beats",
+    "row_filter": null,
+    "source_label": "mirex_median_p_score"
+  },
+  "train15": {
+    "clip_offset_s": 0.0,
+    "corpus": "mirex",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/mirex/train15.beats",
+    "row_filter": null,
+    "source_label": "mirex_median_p_score"
+  },
+  "train16": {
+    "clip_offset_s": 0.0,
+    "corpus": "mirex",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/mirex/train16.beats",
+    "row_filter": null,
+    "source_label": "mirex_median_p_score"
+  },
+  "train17": {
+    "clip_offset_s": 0.0,
+    "corpus": "mirex",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/mirex/train17.beats",
+    "row_filter": null,
+    "source_label": "mirex_median_p_score"
+  },
+  "train18": {
+    "clip_offset_s": 0.0,
+    "corpus": "mirex",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/mirex/train18.beats",
+    "row_filter": null,
+    "source_label": "mirex_median_p_score"
+  },
+  "train19": {
+    "clip_offset_s": 0.0,
+    "corpus": "mirex",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/mirex/train19.beats",
+    "row_filter": null,
+    "source_label": "mirex_median_p_score"
+  },
+  "train2": {
+    "clip_offset_s": 0.0,
+    "corpus": "mirex",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/mirex/train2.beats",
+    "row_filter": null,
+    "source_label": "mirex_median_p_score"
+  },
+  "train20": {
+    "clip_offset_s": 0.0,
+    "corpus": "mirex",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/mirex/train20.beats",
+    "row_filter": null,
+    "source_label": "mirex_median_p_score"
+  },
+  "train3": {
+    "clip_offset_s": 0.0,
+    "corpus": "mirex",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/mirex/train3.beats",
+    "row_filter": null,
+    "source_label": "mirex_median_p_score"
+  },
+  "train4": {
+    "clip_offset_s": 0.0,
+    "corpus": "mirex",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/mirex/train4.beats",
+    "row_filter": null,
+    "source_label": "mirex_median_p_score"
+  },
+  "train5": {
+    "clip_offset_s": 0.0,
+    "corpus": "mirex",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/mirex/train5.beats",
+    "row_filter": null,
+    "source_label": "mirex_median_p_score"
+  },
+  "train6": {
+    "clip_offset_s": 0.0,
+    "corpus": "mirex",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/mirex/train6.beats",
+    "row_filter": null,
+    "source_label": "mirex_median_p_score"
+  },
+  "train7": {
+    "clip_offset_s": 0.0,
+    "corpus": "mirex",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/mirex/train7.beats",
+    "row_filter": null,
+    "source_label": "mirex_median_p_score"
+  },
+  "train8": {
+    "clip_offset_s": 0.0,
+    "corpus": "mirex",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/mirex/train8.beats",
+    "row_filter": null,
+    "source_label": "mirex_median_p_score"
+  },
+  "train9": {
+    "clip_offset_s": 0.0,
+    "corpus": "mirex",
+    "gt": "annotator",
+    "path": "audio/legacy140_30s/mirex/train9.beats",
+    "row_filter": null,
+    "source_label": "mirex_median_p_score"
+  },
+  "zavala.muniz.2014_42": {
+    "clip_offset_s": 5.285,
+    "corpus": "candombe",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/candombe/annotations/beats/zavala.muniz.2014_42.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  },
+  "zavala.muniz.2014_45": {
+    "clip_offset_s": 5.085,
+    "corpus": "candombe",
+    "gt": "annotator",
+    "path": "next-steps/mixed-benchmark/beat_this_annotations/candombe/annotations/beats/zavala.muniz.2014_45.beats",
+    "row_filter": null,
+    "source_label": "beat_this_upstream"
+  }
+}

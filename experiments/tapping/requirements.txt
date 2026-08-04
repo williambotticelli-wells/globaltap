@@ -1,0 +1,7 @@
+psynet==13.1.1
+repp@git+https://gitlab.com/computational-audition/repp@master#egg=repp
+matplotlib
+
+# To use a different PsyNet version, replace the line above with e.g.:
+# psynet@git+https://gitlab.com/PsyNetDev/PsyNet@v13.0.0#egg=psynet
+# psynet@git+https://gitlab.com/PsyNetDev/PsyNet@<commit-hash>#egg=psynet

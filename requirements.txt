@@ -1,0 +1,45 @@
+# Pipeline dependencies pinned to the versions used for the paper (2026-04-21).
+# All stages work with these. madmom (Stage 3) and beat_this (Stage 3b) are
+# F-measure baselines. Both are optional unless you want to recompute paper §3.4
+# from raw audio. The included data/stage_inputs/{canonical240,globalmood200}/
+# already contain their pre-computed beats, so installing them is not required
+# just to run Stage 4.
+
+# Core scientific stack
+numpy==2.4.3
+pandas==3.0.0
+scipy==1.17.1
+scikit-learn==1.8.0
+statsmodels==0.14.6
+
+# Audio I/O and DSP
+soundfile==0.13.1
+soxr==1.0.0
+librosa==0.11.0
+
+# Beat-tracking evaluation
+mir_eval==0.8.2
+
+# Plotting (Stage 2 diagnostic figures; not required if --skip_figures)
+matplotlib==3.10.8
+
+# Markdown tables (Stage 5 / reports)
+tabulate==0.10.0
+
+# Optional — only required to render the world map (figures/globaltap_map.py
+# = paper Figure 1B). Cartopy ships C extensions and pulls in GEOS/PROJ
+# system libraries; on macOS / Linux the wheels in PyPI usually work, on
+# Windows you may need conda-forge:
+#     conda install -c conda-forge cartopy
+cartopy==0.24.1
+
+# Optional F-measure baselines (paper §3.4). Install both only if you want
+# to re-run Stages 3 and 3b from raw audio.
+#
+# Stage 3 (Madmom DBN tracker, Böck et al. 2016 — requires CPython 3.10/3.11):
+#   pip install madmom==0.17.0
+#   # or the patched version used in the paper:
+#   pip install git+https://github.com/CPJKU/madmom@master
+#
+# Stage 3b (Beat This! transformer, Foscarin et al. 2024):
+#   pip install beat_this

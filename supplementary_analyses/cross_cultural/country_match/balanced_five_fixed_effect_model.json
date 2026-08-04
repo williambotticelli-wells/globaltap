@@ -1,0 +1,17 @@
+{
+  "analysis": "balanced_five_stem_and_tapping_country_fixed_effects",
+  "n_cells": 1000,
+  "n_stems": 100,
+  "n_tapping_countries": 10,
+  "n_source_matched_cells": 100,
+  "effect_istc_participants_per_bin": 0.06551000000000035,
+  "cluster_robust_se": 0.04880293057390893,
+  "ci95": [
+    -0.03014198626486983,
+    0.16116198626487052
+  ],
+  "t": 1.3423374217412953,
+  "p_two_sided": 0.17948661502622332,
+  "formula": "istc_mean ~ source_match + C(stem) + C(tapping_country)",
+  "se_cluster": "stem"
+}

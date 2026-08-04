@@ -1,0 +1,560 @@
+<!doctype html>
+<!-- Final supplementary; relative media paths are served by GitHub Pages. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>GlobalTap — Supplementary Material (ISMIR 2026)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { color-scheme: light; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                 "Helvetica Neue", Arial, sans-serif;
+    max-width: 940px; margin: 2.2rem auto; padding: 0 1.4rem;
+    color: #1a1a1a; line-height: 1.55; font-size: 16px;
+  }
+  h1 { font-size: 1.55rem; margin-top: 0; border-bottom: 2px solid #444; padding-bottom: .3rem; }
+  h2 { font-size: 1.2rem; margin-top: 2.2rem; border-bottom: 1px solid #ccc; padding-bottom: .15rem; }
+  h3 { font-size: 1.02rem; margin-top: 1.4rem; }
+  p, li { font-size: 0.96rem; }
+  table {
+    border-collapse: collapse; margin: 0.8rem 0; font-size: 0.9rem; width: 100%;
+  }
+  th, td {
+    border: 1px solid #cfcfcf; padding: 0.42rem 0.7rem; text-align: left;
+    vertical-align: top;
+  }
+  th { background: #f3f3f3; font-weight: 600; }
+  tr:nth-child(even) td { background: #fafafa; }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+  code, pre { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+              font-size: 0.86rem; background: #f4f4f4; }
+  code { padding: 1px 4px; border-radius: 3px; }
+  pre { padding: 0.7rem; border-radius: 5px; overflow-x: auto; }
+  .note { font-size: 0.86rem; color: #555; }
+  .toc { background: #f7f7f9; border: 1px solid #d8d8de; padding: 0.7rem 1.1rem;
+         border-radius: 5px; margin: 1.2rem 0; }
+  .toc ol { margin: 0.3rem 0 0 1.4rem; padding: 0; }
+  .toc li { margin: 0.15rem 0; font-size: 0.92rem; }
+  .anon { background: #fff7e1; padding: 0.6rem 0.9rem; border-left: 3px solid #d9a300;
+          font-size: 0.9rem; margin: 1rem 0; }
+  figure { margin: 1.2rem 0 1.6rem 0; padding: 0; }
+  figure img {
+    display: block; max-width: 100%; height: auto; margin: 0 auto;
+    border: 1px solid #e0e0e0; border-radius: 4px; background: #fff;
+  }
+  figcaption {
+    font-size: 0.86rem; color: #444; margin-top: 0.55rem;
+    line-height: 1.45; padding: 0 0.4rem;
+  }
+  figcaption strong { color: #1a1a1a; }
+</style>
+</head>
+<body>
+
+<h1>GlobalTap — Supplementary Material</h1>
+<p class="note">
+  Companion to the ISMIR 2026 paper
+  <em>"GlobalTap: Globally Diverse Beat Tracking Benchmark via Crowdsourced
+  Tapping."</em> This page collects supplementary figures, tables, and
+  a per-corpus rating breakdown.
+</p>
+
+<div class="anon">
+  <strong>How to view this page.</strong>
+  <ul style="margin: 0.4rem 0 0 1.1rem; padding: 0;">
+    <li><strong>Recommended:</strong> use the
+      <a href="https://williambotticelli-wells.github.io/GlobalTap/supplementary.html">rendered
+      GitHub Pages version</a>, where figures and videos load inline.</li>
+    <li><strong>Offline:</strong> download the entire repository
+      (e.g., as a ZIP) rather than this single HTML file, then open
+      <code>supplementary.html</code> locally — all media plays in any
+      browser.</li>
+  </ul>
+</div>
+
+<div class="anon">
+  <strong>Privacy notice.</strong> Country panels are referred to by ISO
+  codes, participant IDs do not appear, and the code repository uses
+  portable placeholder paths via <code>${PROJECT_ROOT}</code>.
+</div>
+
+<div class="toc">
+  <strong>Contents</strong>
+  <ol>
+    <li><a href="#boxplot">Per-corpus rating distributions</a></li>
+    <li><a href="#mixed-table">Per-source breakdown of the mixed-corpora panel</a></li>
+    <li><a href="#demographics">Per-panel participant demographics</a></li>
+    <li><a href="#audio-demos">Case-study playhead videos</a></li>
+    <li><a href="#robustness">Supplementary robustness analyses</a>
+      <ol style="margin: 0.2rem 0 0.2rem 1.2rem;">
+        <li><a href="#convergence">Tapper-count convergence</a></li>
+        <li><a href="#country-panels">Exploratory country-panel analyses</a></li>
+        <li><a href="#metrical-audit">Complete metrical-preference analysis</a></li>
+        <li><a href="#beat-metrics">Beat metrics beyond F-measure</a></li>
+        <li><a href="#parameters">Method settings and sensitivity</a></li>
+      </ol>
+    </li>
+    <li><a href="#code">Code repository &amp; reproduction</a></li>
+  </ol>
+</div>
+
+<!-- ─────────────────────────────────────────────────────────────────── -->
+<h2 id="boxplot">1. Per-corpus rating distributions</h2>
+
+<figure>
+  <img src="figures/validation_comparison.png"
+       alt="Box-plot rating distributions for the four validation corpus groups (Mixed, Ballroom, MIREX, GlobalMood). The Mixed-corpora panel additionally overlays per-corpus mean Crowd vs. Reference ratings for the 13 constituent corpora, in distinct colors, to expose within-panel heterogeneity.">
+  <figcaption>
+    <strong>Figure&nbsp;S1.</strong> Per-corpus distributions of
+    mean per-excerpt ratings (1–7 scale) for Crowd and Reference
+    annotations across the four validation corpus groups. The
+    summary statistics from this figure (per-corpus means, Δ,
+    <em>p</em>-values, and effect sizes) are reported in
+    Table&nbsp;1 of the main paper. The mixed-corpora panel also shows
+    the per-source Crowd and Reference means for its 13 constituent
+    corpora.
+  </figcaption>
+</figure>
+
+<!-- ─────────────────────────────────────────────────────────────────── -->
+<h2 id="mixed-table">2. Per-source breakdown of the mixed-corpora panel</h2>
+
+<p>
+  The 100-excerpt Mixed-corpora panel comprises 13 source corpora.
+  Wilcoxon signed-rank tests compare excerpt-level Crowd and Reference means
+  within each source, with Benjamini–Hochberg correction across the 13 tests.
+  None remain significant at <em>α</em>&nbsp;=&nbsp;.05 after correction.
+</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Source corpus</th>
+      <th class="num"><em>n</em></th>
+      <th class="num">Crowd</th>
+      <th class="num">Ref</th>
+      <th class="num">Δ</th>
+      <th class="num"><em>p</em> (Wilcoxon)</th>
+      <th class="num"><em>p</em><sub>BH</sub></th>
+      <th class="num"><em>d<sub>z</sub></em></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>ASAP</td>          <td class="num">8</td>  <td class="num">3.35</td><td class="num">3.54</td><td class="num">−0.19</td><td class="num">.742</td><td class="num">.877</td><td class="num">−0.20</td></tr>
+    <tr><td>Beatles</td>       <td class="num">8</td>  <td class="num">4.89</td><td class="num">4.07</td><td class="num">+0.82</td><td class="num">.055</td><td class="num">.178</td><td class="num">+0.83</td></tr>
+    <tr><td>Candombe</td>      <td class="num">13</td> <td class="num">4.40</td><td class="num">4.17</td><td class="num">+0.23</td><td class="num">.733</td><td class="num">.877</td><td class="num">+0.20</td></tr>
+    <tr><td>Carnatic</td>      <td class="num">4</td>  <td class="num">4.69</td><td class="num">4.84</td><td class="num">−0.15</td><td class="num">.625</td><td class="num">.877</td><td class="num">−0.30</td></tr>
+    <tr><td>Cretan</td>        <td class="num">3</td>  <td class="num">5.36</td><td class="num">5.63</td><td class="num">−0.27</td><td class="num">.500</td><td class="num">.812</td><td class="num">−0.80</td></tr>
+    <tr><td>Groove (MIDI)</td> <td class="num">8</td>  <td class="num">4.45</td><td class="num">4.79</td><td class="num">−0.33</td><td class="num">.312</td><td class="num">.580</td><td class="num">−0.44</td></tr>
+    <tr><td>GTZAN</td>         <td class="num">8</td>  <td class="num">4.79</td><td class="num">4.95</td><td class="num">−0.16</td><td class="num">.844</td><td class="num">.914</td><td class="num">−0.23</td></tr>
+    <tr><td>GuitarSet</td>     <td class="num">8</td>  <td class="num">3.81</td><td class="num">4.13</td><td class="num">−0.32</td><td class="num">.031</td><td class="num">.135</td><td class="num">−0.75</td></tr>
+    <tr><td>Hainsworth</td>    <td class="num">8</td>  <td class="num">4.09</td><td class="num">4.72</td><td class="num">−0.63</td><td class="num">.008</td><td class="num">.102</td><td class="num">−1.31</td></tr>
+    <tr><td>Harmonix</td>      <td class="num">8</td>  <td class="num">5.08</td><td class="num">4.20</td><td class="num">+0.88</td><td class="num">.078</td><td class="num">.203</td><td class="num">+0.74</td></tr>
+    <tr><td>RWC</td>           <td class="num">8</td>  <td class="num">4.24</td><td class="num">4.20</td><td class="num">+0.04</td><td class="num">.938</td><td class="num">.938</td><td class="num">+0.04</td></tr>
+    <tr><td>TapCorrect</td>    <td class="num">8</td>  <td class="num">5.22</td><td class="num">4.88</td><td class="num">+0.34</td><td class="num">.250</td><td class="num">.542</td><td class="num">+0.44</td></tr>
+    <tr><td>Turkish</td>       <td class="num">8</td>  <td class="num">4.44</td><td class="num">3.90</td><td class="num">+0.54</td><td class="num">.016</td><td class="num">.102</td><td class="num">+1.39</td></tr>
+  </tbody>
+</table>
+
+<p class="note">
+  Crowd and Ref columns are mean per-excerpt ratings on the 1–7 scale.
+  Δ&nbsp;=&nbsp;Crowd&nbsp;−&nbsp;Ref. <em>p</em> from Wilcoxon
+  signed-rank on excerpt-level means. <em>p</em><sub>BH</sub> is the
+  Benjamini–Hochberg-adjusted <em>p</em>-value across the 13 corpus
+  tests.
+</p>
+
+<!-- ─────────────────────────────────────────────────────────────────── -->
+<h2 id="demographics">3. Per-panel participant demographics</h2>
+
+<p>
+  Across the 200-excerpt GlobalTap benchmark and the 240-excerpt
+  validation set, <strong>1,498 tapping participants</strong>
+  contributed 36,970 trials, and a separate panel of <strong>130
+  approved listener raters</strong> contributed 6,487 ratings on the
+  240 validation excerpts.
+</p>
+
+<p>
+  <strong>Recruitment and exclusions (benchmark panel).</strong> 2,279 people
+  began a session across the eleven Prolific exports that make up the
+  benchmark panel. 868 did not pass the tapping performance check,
+  139 declined the audiovisual consent step, and
+  515 left before finishing, leaving 757 completed and approved sessions.
+  Of those, 746 contributed at least one usable trial. At the trial level, 23,493 of
+  28,945 recorded trials passed the recording, marker-analysis, and post-trial
+  checks. One trial had fewer than three taps after cleaning, leaving 23,492
+  trials for the period and phase analyses. The per-export breakdown sits with the
+  original session exports, which are not included (see
+  <code>data/SOURCES.md</code>). The taps themselves are released in
+  <code>data/taps/</code>. The
+  listener-rating panel retained 130 of 139 starts, and those 130 raters
+  contributed all 6,487 reported ratings.
+</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Panel</th>
+      <th>Reference source</th>
+      <th class="num">Excerpts</th>
+      <th class="num">Tappers</th>
+      <th class="num">Median tappers / excerpt</th>
+      <th class="num">Trials</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Ballroom</td>             <td>Expert beat grids</td>             <td class="num">80</td>  <td class="num">250</td>   <td class="num">40</td>  <td class="num">~3,800</td></tr>
+    <tr><td>Mixed corpora</td>        <td>13 source corpora</td>             <td class="num">100</td> <td class="num">104</td>   <td class="num">36</td>  <td class="num">~3,550</td></tr>
+    <tr><td>MIREX</td>                <td>Lab-tapper consensus (40 participants)</td><td class="num">20</td>  <td class="num">102</td>   <td class="num">67</td>  <td class="num">~1,350</td></tr>
+    <tr><td>GlobalMood validation</td><td>None (absolute-quality check)</td> <td class="num">40</td>  <td class="num">296</td>   <td class="num">110</td> <td class="num">~4,400</td></tr>
+    <tr><td>GlobalTap benchmark</td>  <td>Crowd-derived</td>                 <td class="num">200</td> <td class="num">746</td>   <td class="num">117</td> <td class="num">~23,500</td></tr>
+    <tr><td><strong>Total</strong></td><td>—</td>                            <td class="num"><strong>440</strong></td><td class="num"><strong>1,498</strong></td><td class="num">—</td><td class="num">~37,000</td></tr>
+  </tbody>
+</table>
+
+<p class="note">
+  The trial totals and median number of tappers per excerpt include only trials
+  that passed the recording, marker, and post-trial checks.
+</p>
+
+<table>
+  <thead>
+    <tr><th>Variable</th><th>Distribution</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Age (years)</td><td><em>M</em>&nbsp;=&nbsp;34.8, <em>SD</em>&nbsp;=&nbsp;11.6</td></tr>
+    <tr><td>Gender</td><td>52.7&nbsp;% female, 44.6&nbsp;% male, 2.7&nbsp;% non-binary&nbsp;/&nbsp;undisclosed</td></tr>
+    <tr><td>Years of formal musical training</td><td>median 1 (IQR 0–4), with 33&nbsp;% reporting none and 9&nbsp;% reporting ≥ 10 years</td></tr>
+    <tr><td>Country-panel medians (training)</td><td>1–6 years across panels</td></tr>
+    <tr><td>Gold-MSI (abbrev. 25-item, 1–7)</td><td>overall <em>M</em>&nbsp;=&nbsp;4.45, <em>SD</em>&nbsp;=&nbsp;0.38, with country-panel means from 4.19 to 4.66</td></tr>
+  </tbody>
+</table>
+
+<p class="note">
+  Country-panel medians for the 10-country GlobalTap benchmark are
+  comparable across panels and span 1–6 years of formal musical
+  training.
+</p>
+
+<!-- ─────────────────────────────────────────────────────────────────── -->
+<h2 id="audio-demos">4. Case-study descriptions</h2>
+
+<p>
+  The eight cases below cover excerpts of varying difficulty: three
+  illustrate the structural divergences described in
+  &sect;3.6 (a phase offset, a tactus-level alternative, and bimodal
+  pooled tapping), one is a high-consensus contrast case, and four are
+  simple-alignment excerpts where the KDE peak tips track the optimizer beat
+  grid throughout the song and Crowd / Reference clicks are closely aligned.
+</p>
+
+<style>
+  .playhead-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.4rem 1.2rem;
+    margin: 1rem 0 0.5rem;
+  }
+  .playhead-grid figure { margin: 0; }
+  .playhead-grid video {
+    width: 100%; height: auto; display: block;
+    border: 1px solid #d8d8d8; border-radius: 5px; background: #000;
+  }
+  .playhead-grid figcaption {
+    font-size: 0.86rem; color: #333; margin-top: 0.4rem; line-height: 1.4;
+  }
+  .playhead-grid figcaption .case-title {
+    font-weight: 600; color: #1a1a1a; display: block;
+    margin-bottom: 0.15rem;
+  }
+  .playhead-grid figcaption .audio-only {
+    display: block; margin-top: 0.35rem; font-size: 0.78rem; color: #555;
+  }
+</style>
+
+<div class="playhead-grid">
+  <figure>
+    <video controls preload="metadata" src="audio_demos/candombe_phase_offset__playhead.mp4"></video>
+    <figcaption>
+      <span class="case-title">Candombe — phase offset</span>
+      The crowd tends to anchor to the displaced perceived beat,
+      approximately 140&nbsp;ms later, which corresponds to a salient
+      acoustic event: an emphasized onset by the chico drum. By
+      contrast, the expert annotation places the beat in accordance
+      with the dance movement, earlier in the cycle.
+    </figcaption>
+  </figure>
+
+  <figure>
+    <video controls preload="metadata" src="audio_demos/gtzan_disco_simple__playhead.mp4"></video>
+    <figcaption>
+      <span class="case-title">GTZAN Disco — simple alignment</span>
+      KDE peaks track the optimizer grid through the entire window.
+      Crowd and Reference clicks are closely aligned.
+    </figcaption>
+  </figure>
+
+  <figure>
+    <video controls preload="metadata" src="audio_demos/ballroom_halftime__playhead.mp4"></video>
+    <figcaption>
+      <span class="case-title">Viennese Waltz — tactus mismatch</span>
+      Crowd locks to the half-rate felt pulse. Reference grid is the
+      notated tactus.
+    </figcaption>
+  </figure>
+
+  <figure>
+    <video controls preload="metadata" src="audio_demos/tapcorrect_pop_simple__playhead.mp4"></video>
+    <figcaption>
+      <span class="case-title">Pop (TapCorrect) — simple alignment</span>
+      Stable 4/4 pop track with a crowd-corrected reference annotation.
+      KDE peak tips and the optimizer grid coincide throughout the
+      listener window.
+    </figcaption>
+  </figure>
+
+  <figure>
+    <video controls preload="metadata" src="audio_demos/mixed_bimodal__playhead.mp4"></video>
+    <figcaption>
+      <span class="case-title">Mixed corpora — bimodal pooled tapping</span>
+      Pooled KDE has a secondary peak family at &geq;&nbsp;40&nbsp;% strength. The crowd grid commits to one, reference to the other.
+    </figcaption>
+  </figure>
+
+  <figure>
+    <video controls preload="metadata" src="audio_demos/ballroom_latin_simple__playhead.mp4"></video>
+    <figcaption>
+      <span class="case-title">Latin Ballroom — simple alignment</span>
+      Strong dance-floor isochrony. The displayed KDE consensus and
+      the optimizer beats overlap virtually identically.
+    </figcaption>
+  </figure>
+
+  <figure>
+    <video controls preload="metadata" src="audio_demos/ballroom_baseline__playhead.mp4"></video>
+    <figcaption>
+      <span class="case-title">Ballroom — high-consensus baseline</span>
+      CV&nbsp;&approx;&nbsp;0.024. Crowd and Reference are closely aligned.
+    </figcaption>
+  </figure>
+
+  <figure>
+    <video controls preload="metadata" src="audio_demos/cretan_simple__playhead.mp4"></video>
+    <figcaption>
+      <span class="case-title">Cretan — simple alignment (non-Western)</span>
+      The pooled KDE locks tightly onto the optimizer grid for the full
+      15&nbsp;s window.
+    </figcaption>
+  </figure>
+</div>
+<p class="note">
+  Each video concatenates the Crowd-consensus click overlay, then the
+  Reference-annotation click overlay, back-to-back (~30&nbsp;s total). If a
+  video fails to load, the same excerpts are available as separate
+  <code>crowd_gs</code>/<code>gt</code> click-overlay MP3s in
+  <code>audio_demos/</code>.
+</p>
+
+<p class="note">
+  Case-study excerpts &mdash; structural-divergence set:
+  <code>proyecto.1992_lobo_06</code> (Candombe phase offset),
+  <code>Albums-Chrisanne3-09</code> (Ballroom Viennese Waltz tactus),
+  <code>Media-105914</code> (Ballroom bimodal pooled tapping). Alongside them we
+  release one high-consensus contrast case,
+  <code>Albums-AnaBelen_Veneo-13</code> (Ballroom, Crowd ≈ Reference).
+  Simple-alignment set:
+  <code>gtzan_disco_00000</code> (GTZAN Disco),
+  <code>054_youtube_UgL4N4Hf1dk</code> (TapCorrect Pop),
+  <code>Albums-Latin_Jam-04</code> (Latin Ballroom), and
+  <code>cretan1</code> (Cretan). Source-corpus locations are documented in
+  <code>data/SOURCES.md</code>.
+</p>
+
+<!-- ─────────────────────────────────────────────────────────────────── -->
+<h2 id="robustness">5. Supplementary robustness analyses</h2>
+
+<p>
+  <strong>Multiplicity.</strong> Corrections are applied within each family of
+  tests, Benjamini–Hochberg across the 13 mixed-corpus rating comparisons
+  (§2 above), and across all ten metric comparisons <code>mir_eval</code>
+  returns for madmom versus Beat This!.
+  The excerpt-level associations reported in the
+  paper's §3.3 are uncorrected in the text, and every association that is
+  significant there remains significant after Benjamini–Hochberg correction
+  within that family. The country-panel comparisons in §5.2 are FDR-corrected
+  across all 45 pairs.
+</p>
+
+<h3 id="convergence">5.1 Tapper-count convergence</h3>
+<p>
+  Figure S2 shows convergence of participant-normalized tapping KDEs and their
+  extracted peaks. Compared with the full consensus, KDE correlation reached
+  .90 at 40 tappers and peak F-measure reached .90 at 30 tappers. At 90
+  tappers, the values were .985 and .971. The full consensus contains
+  114&ndash;120 tappers per excerpt (median 117).
+</p>
+<p>
+  A separate analysis ran independent groups through KDE, peak extraction,
+  and optimization. Final-grid F-measure was .893 at N=20 and .918 at N=50.
+  Agreement on period class was .850 and .885, respectively.
+</p>
+<figure>
+  <img src="supplementary_analyses/convergence/kde_peak/convergence_curve.png"
+       alt="Two tapper convergence plots. Peak F-measure rises above point nine by 30 tappers against the full consensus. Independent groups remain below point nine at 50 tappers. KDE correlation converges more slowly.">
+  <figcaption><strong>Figure S2.</strong> Convergence as a function of tappers
+  per excerpt. Circles compare subsamples with the full consensus. Squares
+  compare independent groups. The dotted horizontal line marks
+  .90.</figcaption>
+</figure>
+
+<h3 id="country-panels">5.2 Exploratory country-panel analyses</h3>
+<p>
+  For each excerpt, we compared each panel's typical tapping period with a
+  reference built from the other nine panels' typical (median) period on
+  that same excerpt. Each trial was then classified as double rate
+  (ratio .35–.65), matched rate (.80–1.25), half rate (1.75–2.25), or
+  other/unclear.
+</p>
+<p>
+  Panel differences were clearest in which metrical level listeners chose.
+  Japan showed the least double-rate and most half-rate tapping of any panel
+  (7.5% / 20.1%). Egypt showed the opposite extreme, with the most
+  double-rate and least half-rate tapping (28.1% / 9.4%). After accounting for
+  differences between excerpts, participant-level permutation tests found that
+  metrical choice varied across panels (<em>p</em>&lt;.001). Tap timing (phase)
+  showed no consistent differences across panels (<em>p</em>=.152). Of the 45 pairwise panel
+  comparisons, 2 survived FDR correction (Japan&ndash;Mexico and
+  Brazil&ndash;Japan, both <em>q</em>=.045), so we describe the phase
+  evidence as weak rather than absent
+  (<code>panel_tests/phase_pairwise_panel_tests.csv</code>).
+  These comparisons are between recruitment panels on this sampled excerpt
+  set, not against an expert or culturally authoritative ground truth. We
+  grouped participants by where they were recruited, which may not reflect
+  the music they are enculturated to, and we did not measure how familiar
+  they were with individual excerpts.
+</p>
+<p>
+  We also asked whether tapping coherence is higher when an excerpt's source
+  country matches the panel that tapped it. Across the five source countries
+  with 20 benchmark excerpts each (US, KR, FR, MX, EG), an analysis that
+  accounted for differences between excerpts and panels, and treated
+  measurements from the same excerpt as related, estimated a match effect of
+  +0.066 ISTC units (95% CI [&minus;0.030, +0.161], two-sided
+  <em>p</em>=.179), providing no reliable evidence of an own-country advantage.
+</p>
+
+<h3 id="metrical-audit">5.3 Complete metrical-preference analysis</h3>
+<p>
+  This analysis includes all 180 excerpts with independent expert beat references.
+  Excerpts are grouped by the dominant Crowd period relative to the reference.
+  Rating differences are excerpt-level Crowd minus Reference means. An excerpt
+  is classified as matched, double, or half rate when its crowd-to-reference
+  period ratio falls within &pm;0.15 octaves (about &pm;11%) of 1&times;,
+  0.5&times;, or 2&times;, respectively. All other ratios are classified as
+  non-integer alternatives. All nine half-rate excerpts favored Crowd, but
+  double-rate and non-integer cases had no consistent direction.
+</p>
+<table>
+  <thead><tr><th>Period relation</th><th class="num"><em>n</em></th><th class="num">Crowd higher</th><th class="num">Median difference</th></tr></thead>
+  <tbody>
+    <tr><td>Matched rate</td><td class="num">145</td><td class="num">51</td><td class="num">&minus;.143</td></tr>
+    <tr><td>Crowd half rate</td><td class="num">9</td><td class="num">9</td><td class="num">+.748</td></tr>
+    <tr><td>Crowd double rate</td><td class="num">14</td><td class="num">7</td><td class="num">&minus;.238</td></tr>
+    <tr><td>Non-integer alternative</td><td class="num">12</td><td class="num">7</td><td class="num">+.393</td></tr>
+  </tbody>
+</table>
+<h3 id="beat-metrics">5.4 Beat metrics beyond F-measure</h3>
+<p>
+  Standard <code>mir_eval</code> metrics were computed with the GlobalTap
+  consensus beat sequence as the reference and each tracker's
+  beats as the estimate. The analysis therefore asks how each tracker agrees
+  with the crowd consensus. Results use the 198 excerpts evaluable for both
+  trackers. Two Beat
+  This! outputs with fewer than two beats in the 10–25 s window were excluded
+  from paired comparisons.
+</p>
+<p>
+  Following Davies, Degara &amp; Plumbley (2009), CML is correct metric level
+  and AML is any metric level, which credits double, half, and offbeat
+  interpretations, each scored over the longest continuously correct stretch
+  (CMLc/AMLc) or all beats (CMLt/AMLt), along with information gain, which
+  measures how far the spread of beat errors departs from uniform, all
+  computed with <code>mir_eval</code> defaults.
+</p>
+<table>
+  <thead><tr><th>Metric</th><th class="num">madmom</th><th class="num">Beat This!</th></tr></thead>
+  <tbody>
+    <tr><td>CMLc</td><td class="num">.797</td><td class="num">.621</td></tr>
+    <tr><td>CMLt</td><td class="num">.807</td><td class="num">.636</td></tr>
+    <tr><td>AMLc</td><td class="num">.947</td><td class="num">.908</td></tr>
+    <tr><td>AMLt</td><td class="num">.956</td><td class="num">.935</td></tr>
+    <tr><td>Information gain</td><td class="num">.669</td><td class="num">.643</td></tr>
+  </tbody>
+</table>
+<p>
+  Paired stem-level tests favored madmom for all five metrics: CMLc, CMLt,
+  and information gain at FDR <em>q</em>&lt;.001, AMLc at <em>q</em>=.011, and
+  AMLt at <em>q</em>=.024.
+</p>
+<p>
+  Pooled (pre-optimization) ISTC and pipeline-output CV were both associated
+  with tracker&ndash;crowd agreement on this benchmark: ISTC with madmom
+  (&rho;=.39, <em>p</em>&lt;.0001) and Beat This! (&rho;=.27, <em>p</em>=.0001).
+  CV with both Beat This! (&rho;=&minus;.24, <em>p</em>=.0006) and madmom
+  (&rho;=&minus;.18, <em>p</em>=.009). Script:
+  <code>supplementary_analyses/istc_cv_tracker_correlations/run_pooled_istc_cv_tracker_correlations.py</code>.
+</p>
+
+<h3 id="parameters">5.5 Method settings and sensitivity</h3>
+<p>
+  Pipeline settings were selected during development using checks
+  and sensitivity analyses on the validation corpora (Ballroom, the mixed
+  corpora, and MIREX), then used unchanged for all reported analyses,
+  including the GlobalTap benchmark. Varying each setting one at a
+  time by 18–50% across all 240 validation excerpts produced grids with
+  F-measure .947–1.000 against the reported grids,
+  with the tactus unchanged in 92.1–100% of cases. Each setting and the reason for
+  its value are listed in
+  <a href="supplementary_analyses/METHOD_PARAMETERS.md"><code>METHOD_PARAMETERS.md</code></a>.
+</p>
+
+<p class="note">
+  Full CSVs, exclusion records, and scripts for these analyses are
+  available in <code>supplementary_analyses/</code>.
+</p>
+
+<!-- ─────────────────────────────────────────────────────────────────── -->
+<h2 id="code">6. Code repository &amp; reproduction</h2>
+<p>
+  The full pipeline source — every stage, the paper's
+  optimizer, configs, and figure-regeneration scripts — is provided
+  in this companion repository. The repository's <code>README.md</code>
+  documents pipeline architecture and commands to reproduce the results,
+  including a figures-only path that needs no raw audio or tapping data
+  and a full re-run path from raw inputs. The consensus beat annotations are in
+  <code>data/annotations/</code> (200 benchmark and 240 validation excerpts, one
+  beat time per line) and the de-identified benchmark taps behind them are in
+  <code>data/taps/</code>.
+</p>
+<p>
+  <strong>Repository:</strong>
+  <a href="https://github.com/williambotticelli-wells/GlobalTap">https://github.com/williambotticelli-wells/GlobalTap</a><br>
+  <strong>This supplementary HTML:</strong>
+  <a href="https://williambotticelli-wells.github.io/GlobalTap/supplementary.html">https://williambotticelli-wells.github.io/GlobalTap/supplementary.html</a>
+</p>
+<p class="note">
+  GitHub Pages serves this document with figures loaded inline. For offline
+  viewing, download the entire repository so relative figure and analysis paths
+  remain available.
+</p>
+
+<hr>
+<p class="note">
+  ISMIR 2026 companion supplementary. Code released under MIT. Derived
+  per-stem CSVs released under CC BY 4.0.
+</p>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Local outputs (kept out of the public repo; reproducible from configs)
+outputs/
+
+# Raw stdout captures from long-running analysis scripts (bake in local
+# absolute paths and add no information beyond the committed CSV outputs)
+*_run.log
+
+# Audio scratch (intermediate WAVs while rebuilding videos).
+# The final MP3 and MP4 click-overlay demos *are* tracked: they cover a
+# 15-second window of the source music under the clicks, and the audio
+# exception in LICENSE covers them.
+audio_demos/*.wav
+audio_demos/*.flac
+audio_demos/_frames_*/

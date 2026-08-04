@@ -1,0 +1,79 @@
+{
+  "_doc": [
+    "GlobalTap 200-excerpt cross-cultural benchmark config (paper §3.4 and §3.5).",
+    "200 stems across 10 country-of-listener panels. There are no expert",
+    "annotations (gt_source_map is null), so the reference-dependent stages",
+    "(0, 5, 6, 7) do not apply and stage 2 cannot take a reference map from",
+    "this config. Stages 1, 3 and 4 run as they do for the validation set.",
+    "The Stage-2 KDE",
+    "peaks for this dataset are rebuilt from the released taps with",
+    "scripts/kde_peaks_from_taps.py (see data/taps/README.md)."
+  ],
+
+  "pipeline_version": "1.0.0-canonical",
+  "dataset": "globalmood200",
+  "data_root": "${PROJECT_ROOT}",
+  "audio_dir": "audio/globalmood200_30s",
+  "outputs_root": "outputs/globalmood200",
+  "gt_source_map": null,
+  "stimuli_manifest": "data/sampled_stimuli_globalmood200.json",
+
+  "tap_csv_sources": [
+    "data/taps/country-A/TapTrialMusic.csv",
+    "data/taps/country-B/TapTrialMusic.csv",
+    "data/taps/country-C/TapTrialMusic.csv",
+    "data/taps/country-D/TapTrialMusic.csv",
+    "data/taps/country-E/TapTrialMusic.csv",
+    "data/taps/country-F/TapTrialMusic.csv",
+    "data/taps/country-G/TapTrialMusic.csv",
+    "data/taps/country-H/TapTrialMusic.csv",
+    "data/taps/country-I/TapTrialMusic.csv",
+    "data/taps/country-J/TapTrialMusic.csv"
+  ],
+
+  "stim_offset_s": 2.0,
+  "clip_duration_s": 30.0,
+  "optimizer_window": { "w0": 0.0, "w1": 30.0 },
+  "listening_window":  { "t0": 10.0, "t1": 25.0 },
+
+  "alignment": {
+    "kde_bandwidth_ms": 80.0,
+    "kde_dt_s": 0.005,
+    "peak_prominence": 0.1,
+    "peak_distance_s": 0.15,
+    "peak_width_s": 0.0,
+    "tempo_gate": false,
+    "tempo_gate_rel_tol": 0.3,
+    "mad_threshold": 3.5
+  },
+  "optimizer": {
+    "kde_bandwidth_ms": 80.0,
+    "kde_dt_s": 0.005,
+    "ioi_min_s": 0.28,
+    "ioi_max_s": 1.25,
+    "lambdas_default": [2.0, 0.3, 0.3],
+    "bimodal_threshold": 0.1,
+    "octave_ratio_threshold": 1.4,
+    "high_cv_threshold": 0.06
+  },
+  "sensitivity": {
+    "enabled": true,
+    "ioi_min_s": 0.23,
+    "sigma_scale": [0.7, 1.3]
+  },
+  "madmom": { "fps": 100, "min_bpm": 55, "max_bpm": 215 },
+  "click_dsp": {
+    "sample_rate": 44100,
+    "tone_hz": 1100.0,
+    "click_ms": 12.0,
+    "click_amplitude": 0.9,
+    "music_ratio": 0.35,
+    "output_channels": 1
+  },
+
+  "per_country_min_participants": 30,
+  "_conditions_comment": "These 200 benchmark excerpts have no external reference annotation and were not rated by listeners. The listener-rating experiment covers the 240-excerpt validation set (config/canonical240.json). madmom and beat_this are tracker baselines scored against the crowd consensus (paper §3.4, supplementary_analyses/beat_metrics/), not listening conditions.",
+  "conditions": [
+    { "name": "crowd_gs",  "source": "pipeline" }
+  ]
+}

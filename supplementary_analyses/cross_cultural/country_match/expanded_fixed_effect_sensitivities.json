@@ -1,0 +1,38 @@
+{
+  "match_eligible_110": {
+    "analysis": "match_eligible_110",
+    "n_cells": 1100,
+    "n_stems": 110,
+    "n_match_eligible_stems": 110,
+    "n_source_matched_cells": 110,
+    "effect_istc_participants_per_bin": 0.07916473544973812,
+    "cluster_robust_se": 0.049430202501260304,
+    "ci95": [
+      -0.017716681201253776,
+      0.17604615210073002
+    ],
+    "t": 1.6015458453304878,
+    "p_two_sided": 0.10925607437431503,
+    "formula": "istc_mean ~ source_match + C(stem) + C(tapping_country)",
+    "se_cluster": "stem",
+    "identification_note": "The match coefficient is identified by the 110 excerpts whose source country overlaps a recruitment panel."
+  },
+  "full_benchmark_200": {
+    "analysis": "full_benchmark_200",
+    "n_cells": 2000,
+    "n_stems": 200,
+    "n_match_eligible_stems": 110,
+    "n_source_matched_cells": 110,
+    "effect_istc_participants_per_bin": 0.08290984377742616,
+    "cluster_robust_se": 0.047311503414221294,
+    "ci95": [
+      -0.00981899896889138,
+      0.1756386865237437
+    ],
+    "t": 1.7524246281403186,
+    "p_two_sided": 0.07970081966767575,
+    "formula": "istc_mean ~ source_match + C(stem) + C(tapping_country)",
+    "se_cluster": "stem",
+    "identification_note": "The match coefficient is identified by the 110 excerpts whose source country overlaps a recruitment panel."
+  }
+}

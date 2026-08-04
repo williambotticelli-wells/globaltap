@@ -1,0 +1,6 @@
+psynet @ git+https://gitlab.com/PsyNetDev/PsyNet.git@1e4f6c95a19e698e326a20118d558977e3e5774d#egg=psynet
+openai
+
+# PsyNet is pinned to this specific commit rather than a released version
+# because it includes a Dallinger fix not yet in a tagged PsyNet release
+# (https://github.com/Dallinger/Dallinger/pull/8107).
